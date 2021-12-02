@@ -31,5 +31,18 @@ public class FizzBuzzTest {
         assertEquals("Fizz", result);
     }
 
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_5(){
+        //given
+        int order = 5;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("Buzz", result);
+    }
+
 
 }
