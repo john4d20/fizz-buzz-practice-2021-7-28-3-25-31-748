@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
     @Test
-    void should_return_order_when_count_off_given_order_number_normal_case(){
+    void should_return_order_when_count_off_given_order_number_with_normal_case(){
         //given
         int order =1;
 
@@ -16,6 +16,19 @@ public class FizzBuzzTest {
 
         //then
         assertEquals("1", result);
+    }
+
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_3(){
+        //given
+        int order = 3;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("Fizz", result);
     }
 
 
