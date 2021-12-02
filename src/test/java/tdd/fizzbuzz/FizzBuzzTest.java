@@ -57,6 +57,57 @@ public class FizzBuzzTest {
         assertEquals("Whizz", result);
     }
 
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_3_5(){
+        //given
+        int order = 15;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("FizzBuzz", result);
+    }
+
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_5_7(){
+        //given
+        int order = 35;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("BuzzWhizz", result);
+    }
+
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_3_7(){
+        //given
+        int order = 21;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("FizzWhizz", result);
+    }
+
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_3_5_7(){
+        //given
+        int order = 105;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("FizzBuzzWhizz", result);
+    }
 
 
 

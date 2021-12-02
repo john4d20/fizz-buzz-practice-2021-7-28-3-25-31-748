@@ -3,16 +3,24 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String countoff(int order) {
+        String Sound = "";
         if (order % 3 == 0){
-            return "Fizz";
+            Sound+= "Fizz";
+//            return "Fizz";
         }
-        else if (order % 5 == 0){
-            return "Buzz";
+        if (order % 5 == 0){
+            Sound+= "Buzz";
+//            return "Buzz";
         }
-        else if (order % 7 == 0){
-            return "Whizz";
+        if (order % 7 == 0){
+            Sound+= "Whizz";
+//            return "Whizz";
         }
 
-        return String.valueOf(order);
+        if (Sound.equals("")){
+            return String.valueOf(order);
+        }
+        return Sound;
+
     }
 }
