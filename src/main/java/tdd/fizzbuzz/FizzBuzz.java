@@ -3,20 +3,20 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String countOff(int order) {
-        String Sound = "";
+        String context = "";
         if (order % 3 == 0){
-            Sound+= "Fizz";
+            context+= "Fizz";
         }
         if (order % 5 == 0){
-            Sound+= "Buzz";
+            context+= "Buzz";
         }
         if (order % 7 == 0){
-            Sound+= "Whizz";
+            context+= "Whizz";
         }
-        if (Sound.equals("")){
+        if (context.equals("")){
             return String.valueOf(order);
         }
-        return Sound;
+        return context;
 
     }
 }
