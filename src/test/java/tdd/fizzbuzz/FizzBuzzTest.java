@@ -12,7 +12,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("1", result);
@@ -25,7 +25,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("Fizz", result);
@@ -38,7 +38,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("Buzz", result);
@@ -51,7 +51,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("Whizz", result);
@@ -64,7 +64,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("FizzBuzz", result);
@@ -77,7 +77,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("BuzzWhizz", result);
@@ -90,7 +90,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("FizzWhizz", result);
@@ -103,7 +103,7 @@ public class FizzBuzzTest {
 
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result =  fizzBuzz.countoff(order);
+        String result =  fizzBuzz.countOff(order);
 
         //then
         assertEquals("FizzBuzzWhizz", result);
