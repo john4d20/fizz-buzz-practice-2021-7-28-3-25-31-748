@@ -44,5 +44,20 @@ public class FizzBuzzTest {
         assertEquals("Buzz", result);
     }
 
+    @Test
+    void should_return_order_when_count_off_given_order_number_with_multiples_7(){
+        //given
+        int order = 7;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result =  fizzBuzz.countoff(order);
+
+        //then
+        assertEquals("Whizz", result);
+    }
+
+
+
 
 }
